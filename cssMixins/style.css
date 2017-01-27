@@ -1,0 +1,37 @@
+section {
+    width: 800px;
+    background: #eee;
+    margin: 0 auto;
+    padding: 10px;
+    min-height: 300px;
+}
+
+button {
+    display: block;
+    margin: 10px;
+    @apply --button-style;
+}
+
+:root {
+    --button-style: {
+        width: 300px;
+        padding: 30px 20px;
+        border-radius: 5px;
+        background: blue;
+        color: #fff;
+        font-size: 54px;
+        text-transform: uppercase;
+    }
+}
+
+.btnOne {
+    background: red;
+    font-size: 24px;
+    padding: 10px;
+    border: 0;
+}
+
+.btnTwo {
+    background: green;
+    width: 200px;
+}
