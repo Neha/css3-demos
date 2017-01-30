@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    writing-mode: vertical-rl;
+    float: left;
+}
+
+p {
+    width: 300px;
+    display: inline-block;
+}
+
+.picGrid {
+    margin-top: 70px;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background: #eee;
+    display: inline-block;
+}
+
+div h2 {
+    margin-top: 30px;
+}
+
+.one h2 {
+    writing-mode: vertical-lr;
+}
+
+.two h2 {
+    writing-mode: vertical-lr;
+    float: right;
+}
+
+.three h2 {
+    writing-mode: vertical-lr;
+    float: right;
+}
+
+.four h2 {
+    writing-mode: vertical-lr;
+    float: right;
+}
