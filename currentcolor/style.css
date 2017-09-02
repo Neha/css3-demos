@@ -1,0 +1,47 @@
+body{
+    font-family:arial;
+    background-color:#982286 ;
+    text-align:center;
+  }
+  
+  h2{
+    text-align:Center;
+    color:#fff;
+    text-shadow:2px 2px 2px #38194F;
+   
+  }
+  button{
+    color:#38194F;
+    width:300px;
+    height:50px;
+    border:2px solid currentColor;
+    background-color:#fff;
+    box-shadow:3px 3px 1px currentColor;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    border:1px solid transparent;
+   }
+  
+  
+  button:hover{
+    color:#7D0A91;
+    background:currentColor;
+    box-shadow:3px 3px 1px #38194F;
+    border:1px solid #38194F;
+    
+  }
+  
+  button:before{
+    content: "HOVER ME";
+    color:#38194F;
+    font-size:18px;
+  }
+  
+  button:hover:before{
+   color:#fff;
+    
+  
+  }
+  
+  
+  
