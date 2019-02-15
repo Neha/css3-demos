@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 12px/21px arial;
+}
+
+main {
+  width: 60%;
+  margin: 0 auto;
+  background: #eee;
+  padding: 0 10px;
+}
+
+header,
+.content,
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}

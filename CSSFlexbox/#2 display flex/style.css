@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 60%;
+  margin: 0 auto;
+  background: #eee;
+  padding: 10px;
+}
+
+header,
+.content {
+  display: flex;
+  flex-direction: row;
+}

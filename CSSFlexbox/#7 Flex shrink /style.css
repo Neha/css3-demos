@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 12px/21px arial;
+}
+
+main {
+  width: 60%;
+  margin: 0 auto;
+  background: #eee;
+  padding: 0 10px;
+}
+
+header,
+.content,
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+header {
+  min-height: 70px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content,
+footer {
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+/* flex is the shorthand for flex-grow flex-shrink flex-basis. */
+.content > div {
+  background: #999;
+  padding: 5px;
+  text-align: center;
+  flex: 2 1 200px;
+  margin: 10px 0;
+}
+
+nav a {
+  margin: 0 10px;
+}
+
+@media only screen and (min-width: 600px) {
+  .content > div {
+    background: #999;
+    padding: 5px;
+    text-align: center;
+    flex: 2 0 100px;
+    margin: 10px 5px;
+  }
+}
