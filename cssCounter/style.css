@@ -25,11 +25,11 @@ h2::before {
   content: "This is " counter(section) " : ";
 }
 
-dd {
-  counter-reset: dd;
+dl {
+  counter-reset: dl;
 }
 
-dl::before {
-  counter-increment: dd;
-  content: " " counter(dd) " : ";
+dt::before {
+  counter-increment: dl;
+  content: " " counter(dl) " : ";
 }
