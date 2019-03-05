@@ -15,10 +15,37 @@ This is WIP repo and less jazzy UI (I know it should be jazzy , as we are talkin
 ```
 
 - Writing Modes
+
+```sh
+ .border{
+     color: red;
+     border: 1px solid currentColor;
+ }
+```
+
 - CSS calc
+
+```sh
+ .box{
+     width: calc(100 * 2px);
+  }
+```
+
 - CSS filters
 - CSS Mixins
 - CSS Variables
+
+```sh
+:root: {
+ --red : red;
+}
+
+.block {
+    color :var(--red)
+}
+
+```
+
 - CSS Grids
 - CSS Flexbox
 
