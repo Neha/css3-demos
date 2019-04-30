@@ -21,6 +21,7 @@ This is WIP repo and less jazzy UI (I know it should be jazzy , as we are talkin
 # CSS Ready to use code
 
 - :white_check_mark: Buttons
+- :white_check_mark: Alerts & Notification
 - Navigation
 - Layouts
 - Gallery
