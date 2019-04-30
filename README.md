@@ -1,9 +1,34 @@
-# CSS3 New Features & Code Demo
+# CSS3 New Features Code Demos & more.
 
 This repo is dedicated to all the new CSS features releasing in the CSS.
 This is WIP repo and less jazzy UI (I know it should be jazzy , as we are talking about CSS).
 
-# CONTENT
+# TOC
+
+## New Features
+
+- :white_check_mark: calc
+- :white_check_mark: counter
+- :white_check_mark: filters
+- flexbox
+- grids
+- :white_check_mark: mixins [UPDATE: NOT ANYMORE SUPPORTED]
+- :white_check_mark: scroll behaviour
+- :white_check_mark: variables
+- :white_check_mark: writing modes
+- :white_check_mark: current color
+
+# CSS Ready to use code
+
+- :white_check_mark: Buttons
+- Navigation
+- Layouts
+- Gallery
+- Accordion
+- Tags
+- List
+
+# CONTENT [WIP]
 
 - current color
 
@@ -57,5 +82,4 @@ This is WIP repo and less jazzy UI (I know it should be jazzy , as we are talkin
 
 # REACH ME
 
-I am very active on twiiter: twitter.com/hellonehha
-I am less active at email: nsharma215@gmail.com
+You can email me at nsharma215@gmail.com or reach me on twitter @hellonehha

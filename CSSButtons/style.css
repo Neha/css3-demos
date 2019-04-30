@@ -1,0 +1,75 @@
+/* Minimum Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  color: black;
+  box-sizing: border-box;
+}
+
+/* Global CSS */
+
+#container {
+  --padding-global: 10px;
+  background: #eee;
+  width: calc(780px - var(--padding-global) * 2);
+  margin: 20px auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #67005f;
+}
+
+.margin-around {
+  margin: 10px;
+}
+
+/* Example CSS */
+button {
+  padding: 10px;
+  text-align: center;
+  min-width: 200px;
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  background: #ff308a;
+  color: #fff;
+  border: 2px solid #67005f;
+}
+
+.round {
+  border-radius: 30px;
+}
+
+.drop-shadow {
+  box-shadow: 3px 4px 4px #27104c;
+}
+
+.no-fill {
+  background: #fff;
+  color: #ff308a;
+  border: 2px solid currentColor;
+}
+
+.lifted {
+  box-shadow: 3px 4px 0px #27104c;
+}
+
+.gradient {
+  background-image: linear-gradient(#ff308a, #900240);
+}
+
+/* Hover CSS */
+button:hover {
+  background: #67005f;
+}
