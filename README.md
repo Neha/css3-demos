@@ -31,6 +31,10 @@ This is WIP repo and less jazzy UI (I know it should be jazzy , as we are talkin
 
 # CONTENT [WIP]
 
+### CSS Buttons
+
+![](images/buttons.png)
+
 - current color
 
 ```sh
