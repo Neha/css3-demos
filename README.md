@@ -35,6 +35,10 @@ This is WIP repo and less jazzy UI (I know it should be jazzy , as we are talkin
 
 ![](images/buttons.png)
 
+### CSS Tags
+
+![](images/tags.png)
+
 - current color
 
 ```sh
