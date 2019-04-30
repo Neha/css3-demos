@@ -22,11 +22,12 @@ This is WIP repo and less jazzy UI (I know it should be jazzy , as we are talkin
 
 - :white_check_mark: Buttons
 - :white_check_mark: Alerts & Notification
+- :white_check_mark: Tags
 - Navigation
 - Layouts
 - Gallery
 - Accordion
-- Tags
+
 - List
 
 # CONTENT [WIP]
@@ -38,6 +39,10 @@ This is WIP repo and less jazzy UI (I know it should be jazzy , as we are talkin
 ### CSS Tags
 
 ![](images/tags.png)
+
+### CSS Alerts
+
+![](images/alerts.png)
 
 - current color
 
