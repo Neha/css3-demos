@@ -23,12 +23,11 @@ This is WIP repo and less jazzy UI (I know it should be jazzy , as we are talkin
 - :white_check_mark: Buttons
 - :white_check_mark: Alerts & Notification
 - :white_check_mark: Tags
+- :white_check_mark: List
 - Navigation
 - Layouts
 - Gallery
 - Accordion
-
-- List
 
 # CONTENT [WIP]
 
