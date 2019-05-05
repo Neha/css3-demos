@@ -19,6 +19,7 @@ body {
     margin: 20px auto;
     padding: 10px;
     display: flex;
+    flex-wrap:wrap;
 }
 
 h1 {
@@ -42,4 +43,33 @@ h1 {
 
 .card-container p {
     line-height: 21px;
+}
+
+.card-container.card-header{
+    padding:0;
+    position: relative;
+    width:240px;
+    height:240px;
+}
+
+.card-header > header{
+    background: cadetblue;
+    padding:10px;
+}
+
+.card-header > header h2{
+    font-weight:400
+}
+
+.card-header > header + p {
+    margin:10px;
+    line-height: 21px;
+}
+
+.card-header footer{
+    background: #c8e7e8;
+    position: absolute;
+    bottom: 0;
+    width: 96%;
+    padding: 5px;
 }

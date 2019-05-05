@@ -1,36 +1,50 @@
-# CSS3 New Features Code Demos & more.
+# :computer: CSS3 New Features Code Demos & more.
 
 This repo is dedicated to all the new CSS features releasing in the CSS.
 This is WIP repo and less jazzy UI (I know it should be jazzy , as we are talking about CSS).
 
-# TOC
+# :grey_question: Why?
 
-## New Features
+While learning new CSS3 features and making youtube videos for JSLovers, I started this repo. Also, to reduce the development efforts I have created ready-to-use code samples for the devs.
+
+# :pushpin: TOC
+
+### New Features
 
 - :white_check_mark: calc
 - :white_check_mark: counter
 - :white_check_mark: filters
-- flexbox
-- grids
 - :white_check_mark: mixins [UPDATE: NOT ANYMORE SUPPORTED]
 - :white_check_mark: scroll behaviour
 - :white_check_mark: variables
 - :white_check_mark: writing modes
 - :white_check_mark: current color
+- flexbox - work in progress
+- grids
 
-# CSS Ready to use code
+### CSS + HTML Ready to use code
 
 - :white_check_mark: Buttons
 - :white_check_mark: Alerts & Notification
 - :white_check_mark: Tags
 - :white_check_mark: List
 - :white_check_mark: Card
+- Badegs
+- Tables
+- Images
+- Forms
 - Navigation
 - Layouts
 - Gallery
 - Accordion
+- Icons
+- Tabs
+- Slideshow
 
-# CONTENT [WIP]
+# :bulb: Ready to use code - HTML and CSS
+
+Below are the ready-to-use CSS and HTML code snippts for your project.
+Right now, this is work-in-progress repo.
 
 ### CSS Buttons
 
@@ -43,6 +57,14 @@ This is WIP repo and less jazzy UI (I know it should be jazzy , as we are talkin
 ### CSS Alerts
 
 ![](images/alerts.png)
+
+### CSS Cards
+
+![](images/cards.png)
+
+# :bulb: CSS3 New Features:
+
+Below are the new CSS3 features code samples.
 
 - current color
 
@@ -88,12 +110,18 @@ This is WIP repo and less jazzy UI (I know it should be jazzy , as we are talkin
 - CSS Grids
 - CSS Flexbox
 
-# WANT TO CONTRIBUTE?
+# :watch: What's next?
 
-- You can contribute in improving UI
-- You can contribute in adding more features
-- You can improve the existing code or demo too.
+- Add all possible 'ready to use' codes.
+- Make the code responsive.
+- Make the all examples accessible.
+- Add colors options.
+- Add styleguide.
 
-# REACH ME
+# :heart: Contribution
+
+If you would like to contribute please raise the PR.
+
+# Reach Me :woman:
 
 You can email me at nsharma215@gmail.com or reach me on twitter @hellonehha
