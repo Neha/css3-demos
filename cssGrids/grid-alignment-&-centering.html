@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <title>Alignment and Centering</title>
+    <style>
+        body{
+            font-size: 30px;
+        }
+        .container{
+            display: grid;
+            height: 500px;
+            grid-template-columns: repeat(5, 150px);
+            grid-template-rows: 100px 100px;
+            grid-gap: 10px;
+            border: 10px solid var(--yellow);
+        }
+        .container1{
+            justify-content: center;
+            align-content: center;
+        }
+        .container2{
+            align-items: center;
+            justify-items: start;
+        }
+        .c1, .c2{
+            width: 100px;
+            background-color: chartreuse;
+        }
+        .c2{
+            align-self: center;
+            justify-self: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p><u><i>justify-content</i> and <i>align-content</i></u></p>
+        <p>
+            Sometimes the total size of your grid might be less than the size of its grid container. In this case you can set the 
+            alignment of the grid within the grid container. <u><i>justify-content</i></u> property aligns the grid along the 
+            inline (row) axis and <u><i>align-content</i></u> which aligns the grid along the block (column) axis).
+        </p>
+        <div class="container container1">
+            <div class="c1 itm1">1</div>
+            <div class="c1 itm2">2</div>
+            <div class="c1 itm3">3</div>
+            <div class="c1 itm4">4</div>
+            <div class="c1 itm5">5</div>
+            <div class="c1 itm6">6</div>
+            <div class="c1 itm7">7</div>
+            <div class="c1 itm8">8</div>
+            <div class="c1 itm9">9</div>
+            <div class="c1 itm10">10</div>
+        </div>    
+    </div>
+    <div>
+        <p><u><i>justify-items</i> and <i>align-items</i></u></p>
+        <p>
+            <u><i>justify-items</i></u> aligns grid items along the inline (row) axis and <u><i>align-items</i></u> which aligns 
+            along the block (column) axis). These value applies to all grid items inside the container.
+        </p>
+        <div class="container container1 container2">
+            <div class="c1 itm1">1</div>
+            <div class="c1 itm2">2</div>
+            <div class="c1 itm3">3</div>
+            <div class="c1 itm4">4</div>
+            <div class="c1 itm5">5</div>
+            <div class="c1 itm6">6</div>
+            <div class="c1 itm7">7</div>
+            <div class="c1 itm8">8</div>
+            <div class="c1 itm9">9</div>
+            <div class="c1 itm10">10</div>
+        </div>    
+    </div>
+    <div>
+        <p><u><i>justify-self</i> and <i>align-self</i></u></p>
+        <p>
+            <u><i>justify-self</i></u> aligns a grid item inside a cell along the inline (row) axis and <u><i>align-self</i></u> 
+            which aligns along the block (column) axis). This value applies to a grid item inside a single cell.
+        </p>
+        <div class="container container1 container2">
+            <div class="c2 itm1">1</div>
+            <div class="c2 itm2">2</div>
+            <div class="c2 itm3">3</div>
+            <div class="c2 itm4">4</div>
+            <div class="c2 itm5">5</div>
+            <div class="c2 itm6">6</div>
+            <div class="c2 itm7">7</div>
+            <div class="c2 itm8">8</div>
+            <div class="c2 itm9">9</div>
+            <div class="c2 itm10">10</div>
+        </div>    
+    </div>
+</body>
+</html>
