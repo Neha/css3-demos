@@ -1,14 +1,5 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 html {
   scroll-behavior: smooth;
-}
-
-body {
-  font: 12px/21px arial;
 }
 
 .container {

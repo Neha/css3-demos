@@ -1,17 +1,4 @@
-/* Minimum Reset CSS */
-* {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
-    color: black;
-    box-sizing: border-box;
-  }
-  
-  /* Global CSS */
+ /* Global CSS */
   
   #container {
     --padding-global: 10px;
