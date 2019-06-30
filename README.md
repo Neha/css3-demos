@@ -1,11 +1,22 @@
-# :computer: CSS3 New Features Code Demos & more.
+# :computer: All About CSS :heart:
+CSS3 new Features Code Demos & Ready to Use Code Snippts.
 
-This repo is dedicated to all the new CSS features releasing in the CSS.
+This repo is dedicated to all the new CSS features releasing in the CSS (So, it will remain WIP). This repo also has ready to use CSS + HTML based code snippets such as  - buttons, alert, etc.
+
 This is WIP repo and less jazzy UI (I know it should be jazzy , as we are talking about CSS).
 
-# :grey_question: Why?
+## :grey_question: Why?
 
 While learning new CSS3 features and making youtube videos for JSLovers, I started this repo. Also, to reduce the development efforts I have created ready-to-use code samples for the devs.
+
+## Browser Support
+Working on Chrome 
+
+## How to use this?
+
+- Clone or download the repo.
+- Ready to use code is marked with `css-demo`.
+- Copy the code and use it in your project.
 
 # :pushpin: TOC
 
@@ -29,7 +40,7 @@ While learning new CSS3 features and making youtube videos for JSLovers, I start
 - :white_check_mark: Tags
 - :white_check_mark: List
 - :white_check_mark: Card
-- Badegs
+- Badges
 - Tables
 - Images
 - Forms
@@ -40,6 +51,9 @@ While learning new CSS3 features and making youtube videos for JSLovers, I start
 - Icons
 - Tabs
 - Slideshow
+- Search
+- Loaders
+- Animations
 
 # :bulb: Ready to use code - HTML and CSS
 
@@ -121,6 +135,15 @@ Below are the new CSS3 features code samples.
 # :heart: Contribution
 
 If you would like to contribute please raise the PR.
+If you would like to add any CSS Demo:
+
+0) The demo should be only CSS based. No package, no Javascript, no pre/post-processors.
+1) Create the folder with `css-demo-<nameofthecomponent>`
+2) Add the dependent files. Keep the CSS and HTML into seprate files.
+3) Add readme.md to explain how to use the code.
+4) Add the screenshot of the UI
+5) Make sure the HTML and CSS is valid
+6) Add if any property is not supported in modern browser.
 
 # Reach Me :woman:
 
