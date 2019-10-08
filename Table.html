@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Table</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            background-color: aliceblue;
+        }
+        section {
+            position: relative;
+            border: 1px solid #cac6c6;
+            padding-top: 37px;
+            background: #82dede;
+            margin-left: 100px;
+            margin-right: 100px;
+            border-radius: 3px;
+        }
+
+        .container {
+            height: 350px;
+        }
+
+        table {
+            border-spacing: 0;
+            width: 100%;
+        }
+
+        td {
+            border-left: 1px solid #eee;
+        }
+
+        td,
+        th {
+            border-bottom: 1px solid #eee;
+            background: white;
+            color: #000;
+            padding: 10px 25px;
+        }
+
+        th {
+            height: 0;
+            line-height: 0;
+            padding-top: 0;
+            padding-bottom: 0;
+            color: transparent;
+            border: none;
+            white-space: nowrap;
+        }
+
+        th div {
+            position: absolute;
+            background: transparent;
+            color: #fff;
+            padding: 9px 25px;
+            top: 0;
+            margin-left: -25px;
+            line-height: normal;
+            border-left: 1px solid #AAD9FD;
+        }
+
+        th:first-child div {
+            border: none;
+        }
+
+        .scroll-table {
+            overflow-y: auto;
+            height: 250px;
+        }
+
+        .hover-table td:hover {
+            background-color: #e6e8e8 !important;
+        }
+
+        h3 {
+            color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <h3> Table with fixed header and hover and checkbox select :</h3>
+    <section>
+        <div class="container scroll-table hover-table">
+            <table>
+                <thead>
+                    <tr class="header">
+                        <th>
+                            <div>Name</div>
+                        </th>
+                        <th>
+                            <div>Email-ID</div>
+                        </th>
+                        <th>
+                            <div>Gender</div>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>name1</td>
+                        <td>name1@gmail.com</td>
+                        <td>
+                            <input type="radio" name="gender" value="male"> Male<br>
+                            <input type="radio" name="gender" value="female" checked> Female</td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>name2</td>
+                        <td>name2@gmail.com</td>
+                        <td>
+                            <input type="radio" name="gender" value="male"> Male<br>
+                            <input type="radio" name="gender" value="female"> Female</td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>name3</td>
+                        <td>name3@gmail.com</td>
+                        <td>
+                            <input type="radio" name="gender" value="male"> Male<br>
+                            <input type="radio" name="gender" value="female"> Female</td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>name4</td>
+                        <td>name4@gmail.com</td>
+                        <td>
+                            <input type="radio" name="gender" value="male"> Male<br>
+                            <input type="radio" name="gender" value="female"> Female</td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>name5</td>
+                        <td>name5@gmail.com</td>
+                        <td>
+                            <input type="radio" name="gender" value="male"> Male<br>
+                            <input type="radio" name="gender" value="female"> Female</td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>name6</td>
+                        <td>name6@gmail.com</td>
+                        <td>
+                            <input type="radio" name="gender" value="male"> Male<br>
+                            <input type="radio" name="gender" value="female"> Female</td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>name7</td>
+                        <td>name7@gmail.com</td>
+                        <td>
+                            <input type="radio" name="gender" value="male"> Male<br>
+                            <input type="radio" name="gender" value="female"> Female</td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>name8</td>
+                        <td>name8@gmail.com</td>
+                        <td>
+                            <input type="radio" name="gender" value="male"> Male<br>
+                            <input type="radio" name="gender" value="female"> Female</td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>name9</td>
+                        <td>name9@gmail.com</td>
+                        <td>
+                            <input type="radio" name="gender" value="male" checked> Male<br>
+                            <input type="radio" name="gender" value="female"> Female</td>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <h3> Table with Rows of 2 different height and nohover :</h3>
+    <section>
+        <div class="container scroll-table">
+            <table>
+                <thead>
+                    <tr class="header">
+                        <th>
+                            <div>Name</div>
+                        </th>
+                        <th>
+                            <div>Email-ID</div>
+                        </th>
+                        <th>
+                            <div>Phone</div>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>name1</td>
+                        <td>name1@gmail.com</td>
+                        <td>123456</td>
+                    </tr>
+                    <tr>
+                        <td>name2</td>
+                        <td>name2@gmail.com</td>
+                        <td>123456</td>
+                    </tr>
+                    <tr>
+                        <td height="50">name3</td>
+                        <td>name3@gmail.com</td>
+                        <td>123456</td>
+                    </tr>
+                    <tr>
+                        <td>name4</td>
+                        <td>name4@gmail.com</td>
+                        <td>123456</td>
+                    </tr>
+                    <tr>
+                        <td>name5</td>
+                        <td>name5@gmail.com</td>
+                        <td>123456</td>
+                    </tr>
+                    <tr>
+                        <td height="50">name6</td>
+                        <td>name6@gmail.com</td>
+                        <td>123456</td>
+                    </tr>
+                    <tr>
+                        <td>name7</td>
+                        <td>name7@gmail.com</td>
+                        <td>123456</td>
+                    </tr>
+                    <tr>
+                        <td>name8</td>
+                        <td>name8@gmail.com</td>
+                        <td>123456</td>
+                    </tr>
+                    <tr>
+                        <td height="50">name9</td>
+                        <td>name9@gmail.com</td>
+                        <td>123456</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+</body>
+
+</html>
