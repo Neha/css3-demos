@@ -1,4 +1,4 @@
-# :computer: CSS3 New Features Code Demos & more.
+# :computer: CSS3 New Features Code Demos & more...
 
 This repo is dedicated to all the new CSS features releasing in the CSS.
 This is WIP repo and less jazzy UI (I know it should be jazzy , as we are talking about CSS).
@@ -7,7 +7,7 @@ This is WIP repo and less jazzy UI (I know it should be jazzy , as we are talkin
 
 While learning new CSS3 features and making youtube videos for JSLovers, I started this repo. Also, to reduce the development efforts I have created ready-to-use code samples for the devs.
 
-# :pushpin: TOC
+## :pushpin: TOC
 
 ### New Features
 
@@ -41,7 +41,7 @@ While learning new CSS3 features and making youtube videos for JSLovers, I start
 - Tabs
 - Slideshow
 
-# :bulb: Ready to use code - HTML and CSS
+## :bulb: Ready to use code - HTML and CSS
 
 Below are the ready-to-use CSS and HTML code snippts for your project.
 Right now, this is work-in-progress repo.
