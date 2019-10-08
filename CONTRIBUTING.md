@@ -1,4 +1,4 @@
-# Hacktoverfest 2019
+# Hacktoberfest 2019
 Welcome to the month of learning, sharing, and raising PRs. Being a developer and active community person I keep getting lot of questions
 from where to start for contribution. Hence, here it is my repo of CSS3 examples open for contribution for first-timer or seasoned 
 CSS developers or anyone who is learning CSS.
