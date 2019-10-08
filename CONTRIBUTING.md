@@ -9,12 +9,18 @@ CSS developers or anyone who is learning CSS.
 - Remember goal is to __learn and share__ not to prove __who is more smarter__
 - If stuck ask for help. Trust me there is no issue is asking help.
 
+## Code Guidlines:
+- The biggest rule is the code should be only HTML and CSS NO JAVASCRIPT.
+- The code should be valid HTML and CSS
+- The code should be ready to use
+- The code should be generic to use
+
 ## Where to start contributing?
 - Documentation
 - Pipelines (may be??)
 - New features, modules suggestions 
 - PR for pending tasks
-- move to issue tab
+- Check to Issues
 
 ## Who I am?
 I am Neha Sharma, a curious and learner. Here is my [twitter](https://twitter.com/hellonehha) account.
