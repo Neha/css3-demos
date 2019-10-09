@@ -1,11 +1,54 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 main {
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
   background: #eee;
   padding: 10px;
+  font-family: monospace;
+}
+
+header {
+  overflow: auto;
+  background-color: #000;
+  padding: 1em;
+  color: #fff;
+}
+
+header .logo {
+  float: left;
+}
+
+header nav {
+  float: right;
+}
+
+nav a {
+  padding: 0 5px;
+  color: #fff;
+}
+
+section {
+  display: flex;
+  padding: 2em 0;
+}
+
+section .item {
+  padding: 1em .5em;
+}
+
+.item img {
+  width: 100%;
+  margin: 5px 0;
+}
+
+footer {
+  padding: 1em;
+  background-color: #000;
+  text-align: center;
+  color: #fff;
 }
