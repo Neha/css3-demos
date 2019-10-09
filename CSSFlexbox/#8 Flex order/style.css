@@ -62,6 +62,7 @@ header,
 .content {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 header{
   justify-content: space-between;
