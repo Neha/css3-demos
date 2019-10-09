@@ -36,7 +36,6 @@ nav a {
 
 /* section */
 section {
-  display: flex;
   padding: 2em 0;
 }
 
@@ -62,6 +61,7 @@ header,
 .content {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 header{
   justify-content: space-between;
