@@ -61,7 +61,7 @@ footer {
 header,
 .content {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
 }
 header{
   justify-content: space-between;
