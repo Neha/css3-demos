@@ -66,3 +66,9 @@ header,
 header{
   justify-content: space-between;
 }
+/* flex basis */
+.content div:nth-of-type(5) {
+  -webkit-flex-basis: 100%; /* Safari 6.1+ */
+  flex-basis: 100%;
+  padding: 0 2em;
+}
