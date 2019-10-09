@@ -60,9 +60,16 @@ footer {
 header,
 .content {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
 }
 header{
   justify-content: space-between;
+}
+/* Flex Shrink */
+.content div{
+  flex-shrink: 3;
+}
+.content div:nth-of-type(1),
+.content div:nth-of-type(5) {
+  flex-shrink: 2;
 }
