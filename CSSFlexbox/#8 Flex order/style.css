@@ -67,3 +67,24 @@ header,
 header{
   justify-content: space-between;
 }
+/* flex order */
+.content div:nth-of-type(1) {
+  -webkit-order: 2;
+  order: 2;
+}
+.content div:nth-of-type(2) {
+  -webkit-order: 1;
+  order: 1;
+}
+.content div:nth-of-type(3) {
+  -webkit-order: 4;
+  order: 4;
+}
+.content div:nth-of-type(4) {
+  -webkit-order: 3;
+  order: 3;
+}
+.content div:nth-of-type(5) {
+  -webkit-order:5;
+  order: 5;
+}
