@@ -57,7 +57,7 @@ footer {
   color: #fff;
 }
 
-/* flexbox */
+/* flexbox warp*/
 header,
 .content {
   display: flex;
