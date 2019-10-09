@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/* main */
 main {
   width: 80%;
   margin: 0 auto;
@@ -12,6 +13,7 @@ main {
   font-family: monospace;
 }
 
+/* header */
 header {
   overflow: auto;
   background-color: #000;
@@ -32,6 +34,7 @@ nav a {
   color: #fff;
 }
 
+/* section */
 section {
   display: flex;
   padding: 2em 0;
@@ -46,6 +49,7 @@ section .item {
   margin: 5px 0;
 }
 
+/* footer */
 footer {
   padding: 1em;
   background-color: #000;
