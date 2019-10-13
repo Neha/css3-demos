@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+  .sa{
+    background-image: url(blue2.jpg)  ;
+    
+    float: center;
+    border:none;
+    border-radius: 15px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    width:600px;
+    background-repeat: no-repeat;
+    margin:0 auto;
+}
+.sa h2{
+  font-size: 40px;
+  font-family: verdana;color: white;
+  text-align:center;
+}
+input[type=text], select, textarea {
+  width: 550px;
+  padding: 9px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  resize: vertical;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid black;
+  overflow: auto;
+  background-image: url(blue2.jpg);
+}
+.button {
+  background-color: white;
+  border: none;
+  color: black;
+  font-family: verdana;font-size: 18px;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  transition: width 2s;
+}
+.button:hover{
+  background-color: tomato;
+}
+.gh{transform: width 1s,height 1s;}
+.gh:hover{
+  width: 570px;
+  height: 80px;
+}
+.df{height:100px;padding: 10px;
+  transform: width 1s,height 1s;}
+.df:hover{
+  width: 570px;
+  height: 150px;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 300px;
+  background-color: darkgrey;
+  color: black;
+  font-family: verdana;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 90%;
+  left: 50%;
+  margin-left: -100px;
+  
+  /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+@media screen and (max-width: 600px) {
+  .sa {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+
+<body style="background-image: url(back.jpg);padding: 25px;">
+<div class="sa">
+  <h2>Form</h2><br>
+  <form action="/action_page.php">
+  <div class="tooltip">
+    <span class="tooltiptext">Enter your first name</span>
+    <input class="gh" type="text" name="fname" placeholder=" First Name" style="font-family: verdana;font-size: 18px;">
+    <br><br>
+  </div>
+  <div class="tooltip">
+    <span class="tooltiptext">Enter your last  name</span>
+    <input class="gh" type="text" name="lname" placeholder=" Last Name" style="font-family: verdana;font-size: 18px;">
+    <br><br>
+  </div>
+  <div class="tooltip">
+    <span class="tooltiptext">Enter your Email id</span>
+    <input class="gh" type="text" name="email" placeholder=" Email Address" style="font-family: verdana;font-size: 18px;"><br><br>
+  </div>
+  <div class="tooltip">
+    <label style="font-family: verdana;font-size: 20px;">Gender:</label>
+    <span class="tooltiptext">Select Your Gender</span>
+    <input type="radio" name="gender" value="male"><label style="font-family: verdana;font-size: 16px;">Male</label>
+    <input type="radio" name="gender" value="female"><label style="font-family: verdana;font-size: 16px;">Female</label>
+    <input type="radio" name="gender" value="other"> <label style="font-family: verdana;font-size: 16px;">Other</label><br><br>
+  </div>
+    <div class="tooltip">
+      <label for="Hobbies" style="font-size: 20px;font-family: verdana">Hobbies:</label>
+     <span class="tooltiptext">Select your hobbies</span>
+      <input type="checkbox" name="Dance" value="Bike"><label style="font-family: verdana;font-size: 15xpx;">Dancing</label>
+      <input type="checkbox" name="Running" value="Running"><label style="font-family: verdana;font-size: 15px;">Running</label>
+      <input type="checkbox" name="Reading" value="Reading"><label style="font-family: verdana;font-size: 15px;">Reading</label>
+      <input type="checkbox" name="Walking" value="Walking"><label style="font-family: verdana;font-size: 15px;">Walking</label>
+      <input type="checkbox" name="Sports" value="Football"><label style="font-family: verdana;font-size: 15px;">Football</label>
+      <input type="checkbox" name="Study" value="Study"><label style="font-family: verdana;font-size: 15px;">Study</label><br><br>
+    </div>
+  <div class="tooltip">
+    <label for="Comments" style="font-family: verdana;font-size: 20px;">Comments:</label>
+    <span class="tooltiptext">Enter your comments</span>
+    <textarea class="df" id="subject" name="subject" placeholder="Write something.." style="font-family: verdana;font-size: 18px;"></textarea><br><br>
+  </div>
+  <div class="ds">
+    <button class="button">Submit</button>
+  </div>
+</form>
+</div> 
+</body>
+</html>
