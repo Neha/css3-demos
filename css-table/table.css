@@ -7,7 +7,7 @@ tbody {
 	max-height: 200px; 
 	overflow-y: scroll; 
   }
-
+ 
 .container {
 	height: 350px;
 }
@@ -48,12 +48,12 @@ tr {
 h3 {
 	color: #808080;
 }
-/* .hover-table .hover-effect tr:hover{
-	background-color: red;
 
-} */
 table .hover-effect tr:hover td {
 	background-color: #e6e8e8;
+}
+.hg{
+	height:50px;
 }
 
 
