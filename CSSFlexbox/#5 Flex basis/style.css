@@ -15,18 +15,11 @@ main {
 
 /* header */
 header {
-  overflow: auto;
   background-color: #000;
   padding: 1em;
   color: #fff;
-}
-
-header .logo {
-  float: left;
-}
-
-header nav {
-  float: right;
+  display: flex;
+  justify-content: space-between;
 }
 
 nav a {
