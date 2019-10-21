@@ -1,59 +1,66 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-body {
-  font: 12px/21px arial;
-}
-
+/* main */
 main {
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
   background: #eee;
-  padding: 0 10px;
+  padding: 10px;
+  font-family: monospace;
 }
 
-header,
-.content,
-footer {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin: 20px 0;
-}
-
+/* header */
 header {
-  min-height: 70px;
+  background-color: #000;
+  padding: 1em;
+  color: #fff;
+  display: flex;
   justify-content: space-between;
-  align-items: center;
-}
-
-.content,
-footer {
-  justify-content: space-around;
-  padding: 10px 0;
-}
-
-/* flex is the shorthand for flex-grow flex-shrink flex-basis */
-.content > div {
-  background: #999;
-  padding: 5px;
-  text-align: center;
-  flex: 2 0 200px;
-  margin: 10px 0;
 }
 
 nav a {
-  margin: 0 10px;
+  padding: 0 5px;
+  color: #fff;
 }
 
-@media only screen and (min-width: 600px) {
-  .content > div {
-    background: #999;
-    padding: 5px;
-    text-align: center;
-    flex: 2 0 100px;
-    margin: 10px 0;
-  }
+/* section */
+section {
+  padding: 2em 0;
+}
+
+section .item {
+  padding: 1em .5em;
+}
+
+.item img {
+  width: 100%;
+  margin: 5px 0;
+}
+
+/* footer */
+footer {
+  padding: 1em;
+  background-color: #000;
+  text-align: center;
+  color: #fff;
+}
+
+/* flexbox */
+header,
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+header{
+  justify-content: space-between;
+}
+/* fex grow */
+.content div:nth-of-type(5) {
+  flex-grow: 1;
+  padding: 0 2em;
 }
