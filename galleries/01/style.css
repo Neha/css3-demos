@@ -1,0 +1,49 @@
+/* simple global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* some document wide defaults */
+html {
+  font-family: sans-serif;
+  color: #232425;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-kerning: normal;
+}
+
+/* ===== HEADER ====== */
+header {
+  padding: 1rem;
+  background-color: #f3f4f5;
+}
+
+/* ===== MAIN ===== */
+main {
+  padding: 1rem;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  padding: 1rem;
+}
+
+/* ===== GALLERY ===== */
+.gallery {
+  list-style: none;
+  display: grid;
+  grid-gap: .5rem;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+}
+
+.gallery--item {
+  min-height: 12rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}

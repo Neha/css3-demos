@@ -1,0 +1,49 @@
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.example {
+    margin: 10px 0;
+}
+
+/* BADGE CODE STARTS HERE  */
+
+.badge {
+    color: #fff;
+    background-color: #b3b3b3;
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 2px;
+}
+
+.badge-round {
+    border-radius: 100px;
+}
+
+.badge-error {
+    color: #fff;
+    background-color: #b30000;
+}
+
+.badge-success {
+    color: #fff;
+    background-color: #258e25;
+}
+
+.badge-dark {
+    color: #fff;
+    background-color: #404040;
+}
+
+/* BADGE CODE ENDS HERE  */

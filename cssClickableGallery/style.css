@@ -1,0 +1,45 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+    text-align: center;
+    margin: 10px 0;
+}
+
+.gallery{
+    width: 90%;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(4, minmax(200px,1fr));
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+ .card-wrapper{
+    width: 100%;
+    /* padding: 5px; */
+    margin: auto;
+    grid-auto-flow: column;
+}
+.card img{
+    width: 100%;
+    height: inherit;
+    object-fit: initial;
+}
+@media only screen and (max-width: 924px){
+    .gallery{
+        grid-template-columns: repeat(3, minmax(200px,1fr));
+    }
+}
+@media only screen and (max-width: 687px){
+    .gallery{
+        grid-template-columns: repeat(2, minmax(200px,1fr));
+    }
+}
+@media only screen and (max-width: 459px){
+    .gallery{
+        grid-template-columns: 1fr;
+    }
+}
