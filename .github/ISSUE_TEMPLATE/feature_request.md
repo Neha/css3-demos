@@ -2,19 +2,28 @@
 name: Feature request
 about: Suggest an idea for this project
 title: ''
-labels: ''
+labels: Feature
 assignees: ''
 
 ---
 
-**Is your feature request related to a problem? Please describe.**
+**Describe your feature**
 A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
 
-**Describe the solution you'd like**
+**Describe the technology or features of CSS you used**
 A clear and concise description of what you want to happen.
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+**Is it responsive**
+- [ ] Yes
+- [ ] No
+- [ ] NA
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+**Is it accessible**
+- [ ] Yes
+- [ ] No
+- [ ] NA
+
+**Have you tested in on all browsers?**
+- [ ] Yes
+- [ ] No
+- [ ] NA
