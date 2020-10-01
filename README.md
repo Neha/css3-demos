@@ -29,7 +29,7 @@ While learning new CSS3 features and making youtube videos for JSLovers, I start
 - :white_check_mark: Tags
 - :white_check_mark: List
 - :white_check_mark: Card
-- Badegs
+- Badges
 - Tables
 - Images
 - Forms
