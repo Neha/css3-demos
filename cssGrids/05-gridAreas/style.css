@@ -1,0 +1,44 @@
+body{
+    background: #eee;
+    font-size: 16px;
+}
+
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: "header header header"
+                         "nav content content"
+                         "nav footer footer";
+}
+
+header{
+    grid-area: header;
+}
+
+footer{
+    grid-area: footer;
+}
+
+nav{
+    grid-area: nav;
+}
+
+.content{
+    grid-area: content;
+    height: 200px;
+}
+
+/* .content{
+    display: grid;
+    grid-template-columns: 200px auto;
+} */
+
+ header, footer,
+.content ,
+nav{
+    padding: 1rem;
+    border: 1px solid #fff;
+} 
+

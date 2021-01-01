@@ -1,0 +1,19 @@
+body{
+    background: #eee;
+    font-size: 16px;
+}
+
+.wrapper{
+    width: 500px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(6, 100px);
+    grid-gap: 10px;
+    grid-auto-columns: 200px;
+    grid-auto-flow: column;
+   
+}
+
+.wrapper > div{
+    border: 1px solid  #fff;
+}
