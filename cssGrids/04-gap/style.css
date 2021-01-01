@@ -1,0 +1,18 @@
+body{
+    background: #eee;
+    font-size: 16px;
+}
+
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 200px auto 200px;
+    grid-gap: 10px;
+}
+
+.wrapper > div{
+    padding: 1rem;
+    border: 1px solid #fff;
+}
+

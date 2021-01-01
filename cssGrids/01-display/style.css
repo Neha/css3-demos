@@ -1,0 +1,15 @@
+body{
+    background: #eee;
+    font-size: 16px;
+}
+
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+}
+
+.wrapper > div{
+    padding: 1rem;
+}
+
