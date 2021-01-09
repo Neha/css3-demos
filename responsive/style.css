@@ -1,0 +1,34 @@
+
+
+html{
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+body{
+  background: yellow;
+  color: #000;
+}
+
+.wrapper{
+  display: grid;
+  grid-template-rows: 50px auto 40px ;
+  grid-gap: 10px;
+}
+
+header, footer,.content, nav{
+  border-bottom: 2px dashed #fff;
+}
+
+/* tabs and above */
+@media only screen and (min-width: 768px ) {
+  body{
+    background: red;
+    color: #fff;
+  }
+  .content{
+    display: grid;
+   grid-template-columns: 100px auto ;
+  }
+} 
+
