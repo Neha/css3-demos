@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <title>Name Lines in CSS Grid</title>
+    <style>
+        body{
+            font-size: 30px;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: [sidebar1] 1fr [content1 content-start] 2fr [content2] 1fr [sidebar2];
+            grid-template-rows: [start-row] 100px [middle-row] 100px [end-row];
+            grid-gap: 20px;
+        }
+        .item1{
+            grid-row: start-row/end-row;
+        }
+        .item2{
+            grid-column: content-start/sidebar2;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>
+            We can name the grid line by specifying the name in square brackets eg [name] in <i>grid-template-columns</i> 
+            and <i>grid-template-rows</i>
+        </p>
+        <p>We can have multiple name for a line eg- [name name].</p>
+    </div>
+    <div class="container">
+        <div class="item item1">1</div>
+        <div class="item item2">2</div>
+        <div class="item item3">3</div>
+        <div class="item item4">4</div>
+    </div>
+</body>
+</html>

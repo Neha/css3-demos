@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <title>Grid Template Area</title>
+    <style>
+        body{
+            font-size: 30px;
+        }
+        .container1{
+            margin-bottom: 20px;
+            display: grid;
+            grid-template-columns: 1fr 3fr 1fr;
+            grid-template-rows: 200px 200px 150px;
+            grid-gap: 20px;
+            grid-template-areas: " sidebar1 content sidebar2 " " sidebar1 content sidebar2 " " footer footer footer "
+        }
+        .item1{
+            grid-area: sidebar1;
+        }
+        .item2{
+            grid-area: content;
+        }
+        .item3{
+            grid-area: sidebar2;
+        }
+        .footer{
+            grid-area: footer;
+        }
+
+        .container2{
+            display: grid;
+            grid-gap: 20px;
+            grid-template-areas: 
+                "💩 💩 💩 💩 🍔 🍔 🍔 🍔" 
+                "💩 💩 💩 💩 🍔 🍔 🍔 🍔"
+                "💩 💩 💩 💩 🍔 🍔 🍔 🍔"
+                "💩 💩 💩 💩 🍔 🍔 🍔 🍔"
+        }
+        .i3{
+            grid-column: 💩-start/💩-end;
+        }
+        .i8{
+            grid-column: 💩-start/🍔-end; 
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>
+            <i>grid-template-areas</i> = This property defines named grid areas and provides a visualisation of the grid structure, which may help make 
+            underlying code easier to understand.
+        </p>
+    </div>
+    <div class="container1">
+        <div class="item1 item">#1 SideBar</div>
+        <div class="item2 item">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <p>Lorem, ipsum dolor.</p>
+        </div>
+        <div class="item3 item">#2 Sidebar</div>
+        <div class="footer item">This is Footer</div>
+    </div>
+    <div>
+        <p>Setting the line track using <i>grid-area</i>.</p>
+    </div>
+    <div class="container2">
+        <div class="item i1">1</div>
+        <div class="item i2">2</div>
+        <div class="item i3">3</div>
+        <div class="item i4">4</div>
+        <div class="item i5">5</div>
+        <div class="item i6">6</div>
+        <div class="item i7">7</div>
+        <div class="item i8">8</div>
+        <div class="item i9">9</div>
+        <div class="item i10">10</div>
+        <div class="item i11">11</div>
+        <div class="item i12">12</div>
+        <div class="item i13">13</div>
+        <div class="item i14">14</div>
+        <div class="item i15">15</div>
+        <div class="item i16">16</div>
+        <div class="item i17">17</div>
+        <div class="item i18">18</div>
+        <div class="item i19">19</div>
+        <div class="item i20">20</div>
+        <div class="item i21">21</div>
+        <div class="item i22">22</div>
+        <div class="item i23">23</div>
+        <div class="item i24">24</div>
+        <div class="item i25">25</div>
+        <div class="item i26">26</div>
+        <div class="item i27">27</div>
+        <div class="item i28">28</div>
+        <div class="item i29">29</div>
+        <div class="item i30">30</div>
+    </div>
+</body>
+</html>
